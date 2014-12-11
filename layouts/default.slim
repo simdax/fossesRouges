@@ -1,0 +1,46 @@
+doctype 5
+html[lang="en"]
+  head
+    meta[charset="utf-8"]
+    title
+      rien
+    link[rel="stylesheet" href="#{@items['/stylesheet/'].path}"]
+    script[src="https://code.jquery.com/jquery-2.1.1.min.js"]
+    link[rel="stylesheet" href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css"]
+    link[rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"]
+    link[rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel"]
+
+
+    script[src="#{@items['/javascript/'].path}"]
+    meta[name="generator" content="nanoc #{Nanoc::VERSION}"]
+
+  body id=(@item[:background])
+    
+    #grosseBarre
+      #logo
+        img src="images/logos/logoSEUL_HD_couleurs.jpg"
+
+      #header
+        ul
+          li: a  video
+          li: a  nous
+          li: a  ils
+          li: a  etc.
+          li: a  etc.
+
+
+    #grosDeVaud   
+      #sidebar
+        ul
+          li: a coucou
+          li: a c nous
+          li: a hihih.
+          li: a hihih.
+          li: a hihih.
+
+      #content
+        == yield
+
+
+
+   

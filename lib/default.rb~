@@ -1,0 +1,9 @@
+# All files in the 'lib' directory will be loaded
+# before nanoc starts compiling.
+
+def embedded_svg filename, options={}
+  file = File.read(File.join('images', filename))
+  doc = Nokogiri::HTML::DocumentFragment.parse file
+  svg = doc.at_css 'svg'
+  doc.to_html
+end

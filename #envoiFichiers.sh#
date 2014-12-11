@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm -rf output
+nanoc
+cp output ..
+cd ../output
+wput --reupload  ftp://simoncornaz:canigou@ftpperso.free.fr

@@ -1,0 +1,292 @@
+Crashlog created at 2014-12-11 01:58:50 +0100
+
+===== MESSAGE:
+
+TypeError: no implicit conversion of String into Hash
+
+===== COMPILATION STACK:
+
+  (empty)
+
+===== STACK TRACE:
+
+  0. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/data_sources/filesystem.rb:112:in `merge'
+  1. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/data_sources/filesystem.rb:112:in `block in load_objects'
+  2. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/data_sources/filesystem.rb:86:in `each'
+  3. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/data_sources/filesystem.rb:86:in `map'
+  4. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/data_sources/filesystem.rb:86:in `load_objects'
+  5. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/data_sources/filesystem.rb:45:in `items'
+  6. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:334:in `block in load_items'
+  7. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:333:in `each'
+  8. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:333:in `load_items'
+  9. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:244:in `load'
+  10. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:128:in `layouts'
+  11. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:188:in `dependency_tracker'
+  12. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/memoization.rb:56:in `block in memoize'
+  13. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:459:in `stores'
+  14. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:147:in `unload'
+  15. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:279:in `unload'
+  16. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:259:in `rescue in load'
+  17. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:263:in `load'
+  18. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:118:in `load'
+  19. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:82:in `run'
+  20. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:59:in `compile'
+  21. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:65:in `block in recompile'
+  22. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `chdir'
+  23. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `recompile'
+  24. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:28:in `run_on_changes'
+  25. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:74:in `block in run_supervised_task'
+  26. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:71:in `catch'
+  27. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:71:in `run_supervised_task'
+  28. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:119:in `block in _run_first_task_found'
+  29. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:117:in `each'
+  30. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:117:in `_run_first_task_found'
+  31. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:53:in `block in run_on_changes'
+  32. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:150:in `block (3 levels) in _scoped_plugins'
+  33. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:148:in `each'
+  34. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:148:in `block (2 levels) in _scoped_plugins'
+  35. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:147:in `catch'
+  36. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:147:in `block in _scoped_plugins'
+  37. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:145:in `each'
+  38. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:145:in `_scoped_plugins'
+  39. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:46:in `run_on_changes'
+  40. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/setuper.rb:296:in `block (2 levels) in _listener_callback'
+  41. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:108:in `block in within_preserved_state'
+  42. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:105:in `synchronize'
+  43. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:105:in `within_preserved_state'
+  44. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/setuper.rb:295:in `block in _listener_callback'
+  45. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'
+  46. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'
+  47. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'
+  48. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'
+  49. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'
+
+===== VERSION INFORMATION:
+
+nanoc 3.7.3 © 2007-2014 Denis Defreyne.
+Running ruby 2.1.1 (2014-02-24) on x86_64-linux with RubyGems 2.2.2.
+
+===== SYSTEM INFORMATION:
+
+Linux ordi 3.8.0-32-lowlatency #24-Ubuntu SMP PREEMPT Tue Oct 15 21:20:09 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+
+===== INSTALLED GEMS:
+
+  adsf 1.2.0
+  bundler 1.6.1
+  celluloid 0.16.0
+  coderay 1.1.0
+  colored 1.2
+  cri 2.6.1
+  ffi 1.9.5
+  formatador 0.2.5
+  guard 2.6.1
+  guard-nanoc 1.0.2
+  hitimes 1.2.2
+  kramdown 1.4.2
+  listen 2.7.11
+  lumberjack 1.0.9
+  method_source 0.8.2
+  mini_portile 0.6.0
+  nanoc 3.7.3
+  nokogiri 1.6.3.1
+  pry 0.10.1
+  rack 1.5.2
+  rb-fsevent 0.9.4
+  rb-inotify 0.9.5
+  slim 2.0.3
+  slop 3.6.0
+  temple 0.6.8
+  thor 0.19.1
+  tilt 1.4.1
+  timers 4.0.1
+
+===== ENVIRONMENT:
+
+BUNDLE_BIN_PATH => "/home/simdax/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/bin/bundle"
+BUNDLE_GEMFILE => "/home/simdax/Dropbox/Internet/siteRemi/Gemfile"
+COLORFGBG => "15;0"
+COLUMNS => "172"
+DBUS_SESSION_BUS_ADDRESS => "unix:abstract=/tmp/dbus-YV2BX8UaT1,guid=7dd834a606aa1b54d8cca3d700000030"
+DEFAULTS_PATH => "/usr/share/gconf/default.default.path"
+DESKTOP_SESSION => "default"
+DISPLAY => ":0"
+DM_CONTROL => "/var/run/xdmctl"
+DSSI_PATH => "/home/simdax/.dssi:/usr/lib/dssi:/usr/local/lib/dssi"
+GEM_HOME => "/home/simdax/.rvm/gems/ruby-2.1.1"
+GEM_PATH => "/home/simdax/.rvm/gems/ruby-2.1.1:/home/simdax/.rvm/gems/ruby-2.1.1@global"
+GREP_COLOR => "1;32"
+GREP_OPTIONS => "--color=auto --exclude-dir=.cvs --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn"
+GS_LIB => "/home/simdax/.fonts"
+GTK2_RC_FILES => "/etc/gtk-2.0/gtkrc:/home/simdax/.gtkrc-2.0:/home/simdax/.kde/share/config/gtkrc-2.0"
+GTK_RC_FILES => "/etc/gtk/gtkrc:/home/simdax/.gtkrc:/home/simdax/.kde/share/config/gtkrc"
+GUARD_NOTIFIERS => "---\n- :name: :terminal_title\n  :options:\n    :silent: true\n"
+GUARD_NOTIFY => "true"
+HISTTIMEFORMAT => "%d/%m/%y %T "
+HOME => "/home/simdax"
+IRBRC => "/home/simdax/.rvm/rubies/ruby-2.1.1/.irbrc"
+KDE_FULL_SESSION => "true"
+KDE_MULTIHEAD => "false"
+KDE_SESSION_UID => "1000"
+KDE_SESSION_VERSION => "4"
+KMIX_PULSEAUDIO_DISABLE => "1"
+KONSOLE_DBUS_SERVICE => ":1.26"
+KONSOLE_DBUS_SESSION => "/Sessions/1"
+KONSOLE_PROFILE_NAME => "Terminal"
+LADSPA_PATH => "/home/simdax/.ladspa:/usr/lib/ladspa:/usr/local/lib/ladspa"
+LANG => "fr_FR.UTF-8"
+LANGUAGE => ""
+LC_CTYPE => "fr_FR.UTF-8"
+LESS => "-R"
+LINES => "21"
+LOGNAME => "simdax"
+LSCOLORS => "Gxfxcxdxbxegedabagacad"
+LV2_PATH => "/home/simdax/.lv2:/usr/lib/lv2:/usr/local/lib/lv2"
+MANDATORY_PATH => "/usr/share/gconf/default.mandatory.path"
+MANPATH => "/home/simdax/.rvm/gems/ruby-2.1.1/gems/kramdown-1.4.2/man"
+MY_RUBY_HOME => "/home/simdax/.rvm/rubies/ruby-2.1.1"
+OLDPWD => "/home/simdax/Dropbox/Internet"
+PAGER => "less"
+PATH => "/home/simdax/.rvm/gems/ruby-2.1.1/bin:/home/simdax/.rvm/gems/ruby-2.1.1@global/bin:/home/simdax/.rvm/rubies/ruby-2.1.1/bin:/home/simdax/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/simdax/.rvm/bin"
+PROFILEHOME => ""
+PWD => "/home/simdax/Dropbox/Internet/siteRemi"
+QT_GRAPHICSSYSTEM => "raster"
+QT_PLUGIN_PATH => "/home/simdax/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/"
+RUBYLIB => "/home/simdax/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib"
+RUBYOPT => "-rbundler/setup"
+SESSION_MANAGER => "local/ordi:@/tmp/.ICE-unix/2054,unix/ordi:/tmp/.ICE-unix/2054"
+SHELL => "/bin/zsh"
+SHELL_SESSION_ID => "67257f7e31154000995557c57343d44a"
+SHLVL => "1"
+SSH_AGENT_PID => "1952"
+SSH_AUTH_SOCK => "/tmp/ssh-eGYZhSMw1531/agent.1531"
+TERM => "xterm"
+USER => "simdax"
+VST_PATH => "/home/simdax/.vst:/usr/lib/vst:/usr/local/lib/vst"
+WINDOWID => "8388627"
+WINDOWPATH => "8"
+XCURSOR_THEME => "Oxygen_White"
+XDG_CONFIG_DIRS => "/etc/xdg/xdg-default:/usr/share/kxstudio/menu:/etc/xdg"
+XDG_CURRENT_DESKTOP => "KDE"
+XDG_DATA_DIRS => "/usr/share:/usr/share/default:/usr/local/share/:/usr/share/"
+XDG_SESSION_COOKIE => "abd2a7f7a5c69c3f6976cda30000371d-1418257921.443064-1834102519"
+XDM_MANAGED => "method=classic,auto"
+ZSH => "/home/simdax/.oh-my-zsh"
+_ => "/home/simdax/.rvm/gems/ruby-2.1.1@global/bin/bundle"
+_ORIGINAL_GEM_PATH => "/home/simdax/.rvm/gems/ruby-2.1.1:/home/simdax/.rvm/gems/ruby-2.1.1@global"
+_system_arch => "x86_64"
+_system_name => "Ubuntu"
+_system_type => "Linux"
+_system_version => "12.04"
+rvm_bin_path => "/home/simdax/.rvm/bin"
+rvm_path => "/home/simdax/.rvm"
+rvm_prefix => "/home/simdax"
+rvm_version => "1.26.3 (master)"
+
+===== GEMFILE.LOCK:
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    adsf (1.2.0)
+      rack (>= 1.0.0)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    coderay (1.1.0)
+    colored (1.2)
+    cri (2.6.1)
+      colored (~> 1.2)
+    ffi (1.9.5)
+    formatador (0.2.5)
+    guard (2.6.1)
+      formatador (>= 0.2.4)
+      listen (~> 2.7)
+      lumberjack (~> 1.0)
+      pry (>= 0.9.12)
+      thor (>= 0.18.1)
+    guard-nanoc (1.0.2)
+      guard (>= 1.8.0)
+      nanoc (>= 3.6.3)
+    hitimes (1.2.2)
+    kramdown (1.4.2)
+    listen (2.7.11)
+      celluloid (>= 0.15.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    lumberjack (1.0.9)
+    method_source (0.8.2)
+    mini_portile (0.6.0)
+    nanoc (3.7.3)
+      cri (~> 2.3)
+    nokogiri (1.6.3.1)
+      mini_portile (= 0.6.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (1.5.2)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    slim (2.0.3)
+      temple (~> 0.6.6)
+      tilt (>= 1.3.3, < 2.1)
+    slop (3.6.0)
+    temple (0.6.8)
+    thor (0.19.1)
+    tilt (1.4.1)
+    timers (4.0.1)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  adsf
+  guard-nanoc
+  kramdown
+  nanoc
+  nokogiri
+  slim
+
+===== LOAD PATHS:
+
+  0. /home/simdax/.rvm/gems/ruby-2.1.1/gems/slim-2.0.3/lib
+  1. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib
+  2. /home/simdax/.rvm/gems/ruby-2.1.1/gems/temple-0.6.8/lib
+  3. /home/simdax/.rvm/gems/ruby-2.1.1/extensions/x86_64-linux/2.1.0/nokogiri-1.6.3.1
+  4. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nokogiri-1.6.3.1/lib
+  5. /home/simdax/.rvm/gems/ruby-2.1.1/gems/mini_portile-0.6.0/lib
+  6. /home/simdax/.rvm/gems/ruby-2.1.1/gems/kramdown-1.4.2/lib
+  7. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib
+  8. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib
+  9. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib
+  10. /home/simdax/.rvm/gems/ruby-2.1.1/gems/thor-0.19.1/lib
+  11. /home/simdax/.rvm/gems/ruby-2.1.1/gems/pry-0.10.1/lib
+  12. /home/simdax/.rvm/gems/ruby-2.1.1/gems/slop-3.6.0/lib
+  13. /home/simdax/.rvm/gems/ruby-2.1.1/gems/method_source-0.8.2/lib
+  14. /home/simdax/.rvm/gems/ruby-2.1.1/gems/lumberjack-1.0.9/lib
+  15. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib
+  16. /home/simdax/.rvm/gems/ruby-2.1.1/gems/rb-inotify-0.9.5/lib
+  17. /home/simdax/.rvm/gems/ruby-2.1.1/gems/rb-fsevent-0.9.4/lib
+  18. /home/simdax/.rvm/gems/ruby-2.1.1/gems/formatador-0.2.5/lib
+  19. /home/simdax/.rvm/gems/ruby-2.1.1/extensions/x86_64-linux/2.1.0/ffi-1.9.5
+  20. /home/simdax/.rvm/gems/ruby-2.1.1/gems/ffi-1.9.5/lib
+  21. /home/simdax/.rvm/gems/ruby-2.1.1/gems/cri-2.6.1/lib
+  22. /home/simdax/.rvm/gems/ruby-2.1.1/gems/colored-1.2/lib
+  23. /home/simdax/.rvm/gems/ruby-2.1.1/gems/coderay-1.1.0/lib
+  24. /home/simdax/.rvm/gems/ruby-2.1.1/gems/celluloid-0.16.0/lib
+  25. /home/simdax/.rvm/gems/ruby-2.1.1/gems/timers-4.0.1/lib
+  26. /home/simdax/.rvm/gems/ruby-2.1.1/extensions/x86_64-linux/2.1.0/hitimes-1.2.2
+  27. /home/simdax/.rvm/gems/ruby-2.1.1/gems/hitimes-1.2.2/lib
+  28. /home/simdax/.rvm/gems/ruby-2.1.1/gems/adsf-1.2.0/lib
+  29. /home/simdax/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib
+  30. /home/simdax/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib
+  31. /home/simdax/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0
+  32. /home/simdax/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby/2.1.0/x86_64-linux
+  33. /home/simdax/.rvm/rubies/ruby-2.1.1/lib/ruby/site_ruby
+  34. /home/simdax/.rvm/rubies/ruby-2.1.1/lib/ruby/vendor_ruby/2.1.0
+  35. /home/simdax/.rvm/rubies/ruby-2.1.1/lib/ruby/vendor_ruby/2.1.0/x86_64-linux
+  36. /home/simdax/.rvm/rubies/ruby-2.1.1/lib/ruby/vendor_ruby
+  37. /home/simdax/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0
+  38. /home/simdax/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/x86_64-linux
