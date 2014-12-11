@@ -4,7 +4,10 @@ html[lang="en"]
     meta[charset="utf-8"]
     title
       rien
+    
     link[rel="stylesheet" href="#{@items['/stylesheet/'].path}"]
+    / link[rel="stylesheet" href="#{@items['/style/'].path}"]
+
     script[src="https://code.jquery.com/jquery-2.1.1.min.js"]
     link[rel="stylesheet" href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css"]
     link[rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"]
@@ -18,28 +21,33 @@ html[lang="en"]
     
     #grosseBarre
       #logo
-        img src="images/logos/logoSEUL_HD_couleurs.jpg"
+        img src="/images/logos/logoSEUL_HD_couleurs.jpg"
 
       #header
-        ul
-          li: a  video
-          li: a  nous
-          li: a  ils
-          li: a  etc.
-          li: a  etc.
+        - if @item[:header]
+          ul
+            - @item[:header].each do |x|
+              li
+                == link_to_unless_current "#{x}", x
 
 
     #grosDeVaud   
       #sidebar
-        ul
-          li: a coucou
-          li: a c nous
-          li: a hihih.
-          li: a hihih.
-          li: a hihih.
+        - if @item[:sidebar]
+          ul
+            - @item[:sidebar].each do |x|
+              li
+                - l = @items.map{|i| p %Q{#{i.identifier} matche t il dans #{x}?} ; i.identifier.match /#{x}/ } ; p l # i.identifier =~ /x/ }
+                / - puts x ; puts l.inspect                
+                == link_to "#{l[:titre]}", l
+
 
       #content
         == yield
+        - if @item[:video]
+          #vid
+            - tmp=lienYoutube @item[:video] 
+            iframe width="500" height="300" src=tmp 
 
 
 

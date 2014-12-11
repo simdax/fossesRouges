@@ -1,5 +1,4 @@
-{:	data{WI"/stylesheet/:ET{:default{:	lastI"m
-body {
+{:	data{cI"/stylesheet/:ET{:default{:	lastI"�body {
     margin: 0;
     padding: 0px;
     font-family: Rajdhani;
@@ -8,9 +7,18 @@ body {
 
 body#un{
     background-image: url("/images/FossésRouges0001.JPG");
-    background-size: 95%;
-        color: black
-
+    background-size: 100% 120%;
+    color: black
+}
+body#deux{
+    background-image: url("/images/FossésRouges0002.JPG");
+    background-size: 100% 120%;
+    color: black
+}
+body#trois{
+    background-image: url("/images/FossésRouges0003.JPG");
+    background-size: 100% 120%;
+    color: black
 }
 
 h1, h2{
@@ -20,17 +28,14 @@ h1, h2{
 img {
     max-width: 100%;
 }
-
+/*
 div{
-
-
-/*    border: 2px;
+    border: 2px;
     border-color: blue;
-    border-style: solid;*/
+    border-style: solid;
 }
-
+*/
 #main {
-
     padding: 5px;
     padding-top: 0;
     text-align: center;
@@ -41,11 +46,9 @@ div{
     top:0;
     position: fixed;
     width: 95%;
-    height: 10%;
+    height: 15%;
 }
 #logo{
-    margin: 10px;
-    padding: 10px;
     width: 20%;
     display: inline-block;
 }
@@ -56,11 +59,10 @@ div{
 }
 
 #header{
-    float: right;
     margin: 2%;
     display: inline-block;
     width: 70%;
-    height: 50%;
+    float: right;
 }
 
 #header ul {
@@ -69,33 +71,24 @@ div{
    list-style-type:none;
 }
 #header li {
-   margin-left:2px;
-   height: 100%;
+
    width: 19%;
    font-size: 25px;
-   padding: 1px;
+   padding: 2px;
    text-align: center;
    display: table-cell;
-   float:left; /*pour IE*/
    list-style-type: none;
-   vertical-align: middle; 
+
 
 }
 #header ul li a {
    display:block;
-   float:left;   
-   color:black;
-   text-decoration:none;
-   text-align:center;
 
-   padding:5px;
-   border:2px solid;
-   margin:1px;
-   /*pour avoir un effet "outset" avec IE :*/
-   border-color:#DCDCDC #696969 #696969 #DCDCDC;
+   color:black;
+   background-color: grey;
 }
 #header ul li a:hover {
-   background-color: red;
+   background-color: white;
    border-color:#696969 #DCDCDC #DCDCDC #696969;
 } 
 
@@ -108,107 +101,55 @@ div{
 }
 
 #sidebar{
-    display: inline-block;
     margin: 10px;
-    padding: 10px;
-    /*position: relative;*/
-    height: 300px;
-    width: 250px;  
+    position: fixed;
+    width: 16%;  
+    height: 60%;
     padding: 0;
-    /*border-left: 1px solid #ccc;*/
     text-align: center;
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
 }
 
 #sidebar ul {
-    height:20%;
-    list-style-type: none;
+   padding:0;
+   margin:0;
+   list-style-type:none;
 }
-
-
 #sidebar li {
-    background-color: blue;
-
-    font-size: 30x;
-    height: 100%;
-    width: 100%;
-    float: left;
+   font-size: 25px;
 }
+#sidebar ul li a {
+   display:block;
+   width: 100%;
+   color:black;
+   background-color: grey;
+}
+#sidebar ul li a:hover {
+   background-color: white;
+   border-color:#696969 #DCDCDC #DCDCDC #696969;
+} 
+
 
 #content{
     float: right;
-    height: 80%;
     width: 75%;  
-    margin-right: 20px;
-    display: inline-block;
-    padding: 5px;
-    margin: 15px;
-    text-align: center;
+    padding-top: 40px;
+    text-align: justify;
+
+}
+
+#vid{
+    width:50%;
+    margin: 0px auto 0px auto;
 }
 
 
-
-
-
-
-h1#title {
-    font-size: 2em;
-    margin: 0;
-    line-height: 80px;
-    -webkit-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-    max-width: 300px;
-    margin: auto;
-}
-
-
-ul#structure {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: table;
-}
-
-ul#structure li.sublevel {
-    vertical-align: top;
-    display: table-cell;
-}
-
-
-#footer {
-    display: none;
-}
-
-
-a {
-    text-decoration: none;
-}
-
-a:link,
-a:visited {
-    color: #f30;
-}
-
-a:hover {
-    color: #f90;
-}
 
 ;T:raw@
 :pre@
-I"/;T{;{	;I"w	<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="un"><div id="grosseBarre"><div id="logo"><img src="images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a> video</a></li><li><a> nous</a></li><li><a> ils</a></li><li><a> etc.</a></li><li><a> etc.</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a>coucou</a></li><li><a>c nous</a></li><li><a>hihih.</a></li><li><a>hihih.</a></li><li><a>hihih.</a></li></ul></div><div id="content">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.</p>
-
-<p>Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.</p>
-</div></div></body></html>;T;	I"P
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.
-
-Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.
+I"/;T{;{	;I"Y<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="un"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="video">video</a></li><li><a href="theatre">theatre</a></li><li><a href="residence">residence</a></li><li><a href="a propos de nous">a propos de nous</a></li><li><a href="ils nous ont fait confiance">ils nous ont fait confiance</a></li><li><a href="contact">contact</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"></div><div id="content">
+</div></div></body></html>;T;	I"
 ;T;
-I"^
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.</p>
-
-<p>Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.</p>
+I"
 ;T:	post@I" /grilleAccordsGratefulDead/;T{;{	;I"}<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title>A Brand New nanoc Site - High Time</title><link href="/stylesheet.css" rel="stylesheet" /><meta content="nanoc 3.7.1" name="generator" /></head><body class="layout-rythme"><div id="main"><div class="contenu"><p><img src="&quot;gratefulDead_HighTime.pdf&quot;" alt="" /></p>
 
 <p>Je propose pour la première fois une partition dans un format
@@ -4876,18 +4817,162 @@ Puis cela se répète, de telle sorte que l’on a </p>
 </div></li></ul><div id="footer"><h2></h2><ul><li><a href="/main/"></a></li></ul><ul><li><a href="/stylesheet/"></a></li></ul></div></body></html>;T;	I"alert('ok?');
 ;T;
 I"alert('ok?');
-;T;@�I"/javascript/;T{;{;I"a$(function() {
+;T;@�I"/javascript/;T{;{;I"z// $(function() {
 
-  setTimeout(function() {
-    console.log($('#sidebar').length ,$('.open-menu').length);
-    $('.open-menu').click(function() {
-      // var $this = $(this);
-      $('#sidebar').toggleClass('open');
-      // console.log('click', $this.find('svg').length);
-      // $this.find('svg').addClass('animated flipInY');
-    });
-  }, 0);
+//   setTimeout(function() {
+//     console.log($('#sidebar').length ,$('.open-menu').length);
+//     $('.open-menu').click(function() {
+//       // var $this = $(this);
+//       $('#sidebar').toggleClass('open');
+//       // console.log('click', $this.find('svg').length);
+//       // $this.find('svg').addClass('animated flipInY');
+//     });
+//   }, 0);
 
-}());
-;T;	@�;
-@�I"/images/Sheppard/Sheppard/;T{;{ I"*/images/chantFontenay/starwarsGrotte/;T{;{ I"/images/FossésRouges0005/;T{;{ I"/images/FossésRouges0002/;T{;{ I"/images/FossésRouges0006/;T{;{ I"/images/FossésRouges0001/;T{;{ I"/images/FossésRouges0007/;T{;{ I"/images/FossésRouges0003/;T{;{ I"/images/FossésRouges0004/;T{;{ I"*/images/JPEG/logo_HD_NB_typo_blanche/;T{;{ I"./images/JPEG/logo_HD_couleurs_BandeRouge/;T{;{ I"(/images/JPEG/logo_HD_NB_typo_noire/;T{;{ I"#/images/JPEG/typo_noire_SEULE/;T{;{ I"0/images/JPEG/logo_HD_couleurs_typo_blanche/;T{;{ I"!/images/JPEG/logoSEUL_HD_NB/;T{;{ I"%/images/JPEG/typo_blanche_SEULE/;T{;{ I"'/images/JPEG/logoSEUL_HD_couleurs/;T{;{ I"./images/JPEG/logo_HD_couleurs_typo_noire/;T{;{ I"+/images/logos/logo_HD_NB_typo_blanche/;T{;{ I"//images/logos/logo_HD_couleurs_BandeRouge/;T{;{ I")/images/logos/logo_HD_NB_typo_noire/;T{;{ I"$/images/logos/typo_noire_SEULE/;T{;{ I"1/images/logos/logo_HD_couleurs_typo_blanche/;T{;{ I""/images/logos/logoSEUL_HD_NB/;T{;{ I"&/images/logos/typo_blanche_SEULE/;T{;{ I"(/images/logos/logoSEUL_HD_couleurs/;T{;{ I"//images/logos/logo_HD_couleurs_typo_noire/;T{;{ :versioni
+// }());
+
+sfHover = function() {
+        var sfEls = document.getElementById("menu").getElementsByTagName("LI");
+        for (var i=0; i<sfEls.length; i++) {
+                sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                }
+                sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                }
+        }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);;T;	@�;
+@�I"/images/Sheppard/Sheppard/;T{;{ I"*/images/chantFontenay/starwarsGrotte/;T{;{ I"/images/FossésRouges0005/;T{;{ I"/images/FossésRouges0002/;T{;{ I"/images/FossésRouges0006/;T{;{ I"/images/FossésRouges0001/;T{;{ I"/images/FossésRouges0007/;T{;{ I"/images/FossésRouges0003/;T{;{ I"/images/FossésRouges0004/;T{;{ I"*/images/JPEG/logo_HD_NB_typo_blanche/;T{;{ I"./images/JPEG/logo_HD_couleurs_BandeRouge/;T{;{ I"(/images/JPEG/logo_HD_NB_typo_noire/;T{;{ I"#/images/JPEG/typo_noire_SEULE/;T{;{ I"0/images/JPEG/logo_HD_couleurs_typo_blanche/;T{;{ I"!/images/JPEG/logoSEUL_HD_NB/;T{;{ I"%/images/JPEG/typo_blanche_SEULE/;T{;{ I"'/images/JPEG/logoSEUL_HD_couleurs/;T{;{ I"./images/JPEG/logo_HD_couleurs_typo_noire/;T{;{ I"+/images/logos/logo_HD_NB_typo_blanche/;T{;{ I"//images/logos/logo_HD_couleurs_BandeRouge/;T{;{ I")/images/logos/logo_HD_NB_typo_noire/;T{;{ I"$/images/logos/typo_noire_SEULE/;T{;{ I"1/images/logos/logo_HD_couleurs_typo_blanche/;T{;{ I""/images/logos/logoSEUL_HD_NB/;T{;{ I"&/images/logos/typo_blanche_SEULE/;T{;{ I"(/images/logos/logoSEUL_HD_couleurs/;T{;{ I"//images/logos/logo_HD_couleurs_typo_noire/;T{;{ I"/style/;T{;{;I"I
+body{
+margin: 0;
+padding: 0;
+border: 0;
+overflow: hidden;
+height: 100%; 
+max-height: 100%; 
+}
+
+/*#sidebar, #header{
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 200px; 
+height: 100%;
+overflow: hidden; 
+background-color: navy;
+color: white;
+}
+
+#sidebar{ 
+left: 200px; 
+right: 0;
+width: auto;
+height: 120px;
+overflow: hidden;
+background-color: navy;
+color: white;
+}*/
+
+/*#content{
+position: fixed; 
+left: 200px; 
+top: 120px; Set top value to HeightOfTopFrameDiv
+right: 0;
+bottom: 0;
+overflow: auto; 
+background: #fff;
+}
+*/
+.innertube{
+margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+* html body{ /*IE6 hack*/
+padding: 120px 0 0 200px; /*Set value to (HeightOfTopFrameDiv 0 0 WidthOfLeftFrameDiv)*/
+}
+
+* html #content{ /*IE6 hack*/
+height: 100%; 
+width: 100%; 
+}
+
+* html #sidebar{ /*IE6 hack*/
+width: 100%;
+}
+;T;	@?;
+@?I"/video/;T{;{	;I"�
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="video">video</a></li><li><a href="theatre">theatre</a></li><li><a href="residence">residence</a></li><li><a href="a propos de nous">a propos de nous</a></li><li><a href="ils nous ont fait confiance">ils nous ont fait confiance</a></li><li><a href="contact">contact</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li></ul></div><div id="content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.</p>
+
+<p>Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.</p>
+</div></div></body></html>;T;	I"P
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.
+
+Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.
+;T;
+I"^
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.</p>
+
+<p>Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.</p>
+;T;@CI"/video/clip/;T{;{	;I"&<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="trois"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clips">clips</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="lesmailles">#<Nanoc::Item:0x007f8579a61980></a></li><li><a href="flashcocotte">#<Nanoc::Item:0x007f8579a61980></a></li><li><a href="lundismusicaux">#<Nanoc::Item:0x007f8579a61980></a></li></ul></div><div id="content">
+<p>Nos Vidz</p>
+</div></div></body></html>;T;	I"
+Nos Vidz;T;
+I"
+<p>Nos Vidz</p>
+;T;@II"/video/maillesParis/;T{;{	;I"q<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="les mailles de paris">les mailles de paris</a></li><li><a href="flash cocotte">flash cocotte</a></li><li><a href="les lundis musicaux">les lundis musicaux</a></li></ul></div><div id="content">
+<p>lol !</p>
+<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+lol !;T;
+I"
+<p>lol !</p>
+;T;@OI"/video/lesmailles/;T{;{	;I"Q<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="lesmailles">lesmailles</a></li><li><a href="flashcocotte">flashcocotte</a></li><li><a href="lundismusicaux">lundismusicaux</a></li></ul></div><div id="content">
+<p>lol !</p>
+<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+lol !;T;
+I"
+<p>lol !</p>
+;T;@UI"/video/flashCocotte/;T{;{	;I"Q<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="lesmailles">lesmailles</a></li><li><a href="flashcocotte">flashcocotte</a></li><li><a href="lundismusicaux">lundismusicaux</a></li></ul></div><div id="content">
+<p>lol !</p>
+<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+lol !;T;
+I"
+<p>lol !</p>
+;T;@[I"/video/lundismusicaux/;T{;{	;I"Q<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="lesmailles">lesmailles</a></li><li><a href="flashcocotte">flashcocotte</a></li><li><a href="lundismusicaux">lundismusicaux</a></li></ul></div><div id="content">
+<p>lol !</p>
+<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+lol !;T;
+I"
+<p>lol !</p>
+;T;@aI"!/video/clips/lundismusicaux/;T{;{	;I"6<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li></ul></div><div id="content">
+<p>lol !</p>
+<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+lol !;T;
+I"
+<p>lol !</p>
+;T;@gI"/video/clips/flashCocotte/;T{;{	;I"6<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li></ul></div><div id="content">
+<p>lol !</p>
+<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+lol !;T;
+I"
+<p>lol !</p>
+;T;@mI"/video/clips/lesmailles/;T{;{	;I"6<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li></ul></div><div id="content">
+<p>lol !</p>
+<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+lol !;T;
+I"
+<p>lol !</p>
+;T;@sI"/video/clips/;T{;{	;I"2<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="trois"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clips">clips</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li></ul></div><div id="content">
+<p>Nos Vidz</p>
+</div></div></body></html>;T;	I"
+Nos Vidz;T;
+I"
+<p>Nos Vidz</p>
+;T;@yI"/video/mainVideo/;T{;{	;I"2<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="trois"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clips">clips</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li></ul></div><div id="content">
+<p>Nos Vidz</p>
+</div></div></body></html>;T;	I"
+Nos Vidz;T;
+I"
+<p>Nos Vidz</p>
+;T;@:versioni

@@ -1,0 +1,57 @@
+
+body{
+margin: 0;
+padding: 0;
+border: 0;
+overflow: hidden;
+height: 100%; 
+max-height: 100%; 
+}
+
+/*#sidebar, #header{
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 200px; 
+height: 100%;
+overflow: hidden; 
+background-color: navy;
+color: white;
+}
+
+#sidebar{ 
+left: 200px; 
+right: 0;
+width: auto;
+height: 120px;
+overflow: hidden;
+background-color: navy;
+color: white;
+}*/
+
+/*#content{
+position: fixed; 
+left: 200px; 
+top: 120px; Set top value to HeightOfTopFrameDiv
+right: 0;
+bottom: 0;
+overflow: auto; 
+background: #fff;
+}
+*/
+.innertube{
+margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+* html body{ /*IE6 hack*/
+padding: 120px 0 0 200px; /*Set value to (HeightOfTopFrameDiv 0 0 WidthOfLeftFrameDiv)*/
+}
+
+* html #content{ /*IE6 hack*/
+height: 100%; 
+width: 100%; 
+}
+
+* html #sidebar{ /*IE6 hack*/
+width: 100%;
+}
