@@ -4,8 +4,8 @@ html[lang="en"]
     meta[charset="utf-8"]
     title
       rien
-    
-    link[rel="stylesheet" href="#{@items['/stylesheet/'].path}"]
+
+    link[rel="stylesheet" href="#{@items['/style/'].path}"]
     / link[rel="stylesheet" href="#{@items['/style/'].path}"]
 
     script[src="https://code.jquery.com/jquery-2.1.1.min.js"]
@@ -18,36 +18,52 @@ html[lang="en"]
     meta[name="generator" content="nanoc #{Nanoc::VERSION}"]
 
   body id=(@item[:background])
+
+    -if @item[:intro]=='caca'
+
+      #grosseImageBienViolente onclick="window.location='/intro';"
+        img src='/images/logos/logoSEUL_HD_couleurs.jpg'
+
+    -if @item[:intro].nil?
     
-    #grosseBarre
-      #logo
-        img src="/images/logos/logoSEUL_HD_couleurs.jpg"
+      #grosseBarre
+        #logo onclick="window.location='/intro';" 
+          img src="/images/logos/logoSEUL_HD_NB.jpg"
 
-      #header
-        - if @item[:header]
-          ul
-            - @item[:header].each do |x|
-              li
-                == link_to_unless_current "#{x}", x
-
-
-    #grosDeVaud   
-      #sidebar
-        - if @item[:sidebar]
-          ul
-            - @item[:sidebar].each do |x|
-              li
-                - l = @items.map{|i| p %Q{#{i.identifier} matche t il dans #{x}?} ; i.identifier.match /#{x}/ } ; p l # i.identifier =~ /x/ }
-                / - puts x ; puts l.inspect                
-                == link_to "#{l[:titre]}", l
+        #header 
+          - if @item[:header]
+            ul
+              - @item[:header].each do |x|
+                li
+                  - l = @items.find{|i|  i.identifier =~ /#{x}$/ }      
+                  / - p @items
+                  == link_to "#{l[:titre]}", l
 
 
-      #content
-        == yield
-        - if @item[:video]
-          #vid
-            - tmp=lienYoutube @item[:video] 
-            iframe width="500" height="300" src=tmp 
+      #grosDeVaud   
+        #sidebar
+          - if @item[:sidebar]
+            ul
+              - @item[:sidebar].each do |x|
+                li
+                  - l = @items.find{|i| i.identifier.match /#{x}$/ }      
+                  == link_to "#{l[:titre]}", l unless l.nil?
+                  - if @item[:sidebar].find{|y| y=~/ssm#{x[0..-2]}/ }
+                    ul class="hid"
+                      - @item["ssm#{x[0..-2]}".to_sym].each do |z|
+                        li
+                        - k = @items.find{|i|  i.identifier =~ /#{z}$/ }      
+                        == link_to "#{k[:titre]}", k
+
+
+        #content
+          #texte
+            == yield
+
+          - if @item[:video]
+            #vid
+              - tmp=lienYoutube @item[:video] 
+              iframe width="300" height="200" src=tmp 
 
 
 

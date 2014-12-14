@@ -1,9 +1,11 @@
 ---
 titre: "flash Cocotte"
-layout: trois
+background: quatre
 video: https://www.youtube.com/watch?v=vmI2ohiU8l4
-header: [clip, captation, court-metrages, documentaire, experimental, trailer]
-sidebar: ["lesmailles", "flashcocotte", "lundismusicaux"]
+
+header: [video/, theatre/, residence/, aPropos/, confiance/, contact/ ]
+sidebar: [clips/, captation/, court-metrages/, documentaire/, experimental/, trailer/, ssmclips]
+ssmclips: [lesmailles/, flashCocotte/, lundismusicaux/]
 ---
 
 lol !

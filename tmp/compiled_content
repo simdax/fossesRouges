@@ -1,153 +1,16 @@
-{:	data{cI"/stylesheet/:ET{:default{:	lastI"�body {
-    margin: 0;
-    padding: 0px;
-    font-family: Rajdhani;
+{:	data{oI"/stylesheet/:ET{:default{:	lastI"�#body{
+    background-image: "/images/FossésRouges0005.JPG"
 }
 
+#grosseImageBienViolente{
 
-body#un{
-    background-image: url("/images/FossésRouges0001.JPG");
-    background-size: 100% 120%;
-    color: black
-}
-body#deux{
-    background-image: url("/images/FossésRouges0002.JPG");
-    background-size: 100% 120%;
-    color: black
-}
-body#trois{
-    background-image: url("/images/FossésRouges0003.JPG");
-    background-size: 100% 120%;
-    color: black
-}
-
-h1, h2{
-   font-family:Cinzel; 
-}
-
-img {
-    max-width: 100%;
-}
-/*
-div{
-    border: 2px;
-    border-color: blue;
-    border-style: solid;
-}
-*/
-#main {
-    padding: 5px;
-    padding-top: 0;
-    text-align: center;
-}
-
-#grosseBarre{
-    margin: 10px;
-    top:0;
-    position: fixed;
-    width: 95%;
-    height: 15%;
-}
-#logo{
-    width: 20%;
-    display: inline-block;
-}
-#logo img
-{
-    width: 100%;
-    height: 50%;
-}
-
-#header{
-    margin: 2%;
-    display: inline-block;
-    width: 70%;
-    float: right;
-}
-
-#header ul {
-   padding:0;
-   margin:0;
-   list-style-type:none;
-}
-#header li {
-
-   width: 19%;
-   font-size: 25px;
-   padding: 2px;
-   text-align: center;
-   display: table-cell;
-   list-style-type: none;
-
-
-}
-#header ul li a {
-   display:block;
-
-   color:black;
-   background-color: grey;
-}
-#header ul li a:hover {
-   background-color: white;
-   border-color:#696969 #DCDCDC #DCDCDC #696969;
-} 
-
-
-#grosDeVaud{
-    margin: 10px;
-    margin-top: 12%;
-    height: 450px;
-    width: 95%;
-}
-
-#sidebar{
-    margin: 10px;
-    position: fixed;
-    width: 16%;  
-    height: 60%;
-    padding: 0;
-    text-align: center;
-}
-
-#sidebar ul {
-   padding:0;
-   margin:0;
-   list-style-type:none;
-}
-#sidebar li {
-   font-size: 25px;
-}
-#sidebar ul li a {
-   display:block;
-   width: 100%;
-   color:black;
-   background-color: grey;
-}
-#sidebar ul li a:hover {
-   background-color: white;
-   border-color:#696969 #DCDCDC #DCDCDC #696969;
-} 
-
-
-#content{
-    float: right;
-    width: 75%;  
-    padding-top: 40px;
-    text-align: justify;
-
-}
-
-#vid{
-    width:50%;
-    margin: 0px auto 0px auto;
-}
-
-
-
-;T:raw@
+    height:100px;
+    width: 200px;
+    margin: 200px;  
+    position: absolute;
+};T:raw@
 :pre@
-I"/;T{;{	;I"Y<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="un"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="video">video</a></li><li><a href="theatre">theatre</a></li><li><a href="residence">residence</a></li><li><a href="a propos de nous">a propos de nous</a></li><li><a href="ils nous ont fait confiance">ils nous ont fait confiance</a></li><li><a href="contact">contact</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"></div><div id="content">
-</div></div></body></html>;T;	I"
+I"/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="cinq"><div id="grosseImageBienViolente" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div></body></html>;T;	I"
 ;T;
 I"
 ;T:	post@I" /grilleAccordsGratefulDead/;T{;{	;I"}<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title>A Brand New nanoc Site - High Time</title><link href="/stylesheet.css" rel="stylesheet" /><meta content="nanoc 3.7.1" name="generator" /></head><body class="layout-rythme"><div id="main"><div class="contenu"><p><img src="&quot;gratefulDead_HighTime.pdf&quot;" alt="" /></p>
@@ -4843,78 +4706,162 @@ sfHover = function() {
         }
 }
 if (window.attachEvent) window.attachEvent("onload", sfHover);;T;	@�;
-@�I"/images/Sheppard/Sheppard/;T{;{ I"*/images/chantFontenay/starwarsGrotte/;T{;{ I"/images/FossésRouges0005/;T{;{ I"/images/FossésRouges0002/;T{;{ I"/images/FossésRouges0006/;T{;{ I"/images/FossésRouges0001/;T{;{ I"/images/FossésRouges0007/;T{;{ I"/images/FossésRouges0003/;T{;{ I"/images/FossésRouges0004/;T{;{ I"*/images/JPEG/logo_HD_NB_typo_blanche/;T{;{ I"./images/JPEG/logo_HD_couleurs_BandeRouge/;T{;{ I"(/images/JPEG/logo_HD_NB_typo_noire/;T{;{ I"#/images/JPEG/typo_noire_SEULE/;T{;{ I"0/images/JPEG/logo_HD_couleurs_typo_blanche/;T{;{ I"!/images/JPEG/logoSEUL_HD_NB/;T{;{ I"%/images/JPEG/typo_blanche_SEULE/;T{;{ I"'/images/JPEG/logoSEUL_HD_couleurs/;T{;{ I"./images/JPEG/logo_HD_couleurs_typo_noire/;T{;{ I"+/images/logos/logo_HD_NB_typo_blanche/;T{;{ I"//images/logos/logo_HD_couleurs_BandeRouge/;T{;{ I")/images/logos/logo_HD_NB_typo_noire/;T{;{ I"$/images/logos/typo_noire_SEULE/;T{;{ I"1/images/logos/logo_HD_couleurs_typo_blanche/;T{;{ I""/images/logos/logoSEUL_HD_NB/;T{;{ I"&/images/logos/typo_blanche_SEULE/;T{;{ I"(/images/logos/logoSEUL_HD_couleurs/;T{;{ I"//images/logos/logo_HD_couleurs_typo_noire/;T{;{ I"/style/;T{;{;I"I
-body{
-margin: 0;
-padding: 0;
-border: 0;
-overflow: hidden;
-height: 100%; 
-max-height: 100%; 
+@�I"/images/Sheppard/Sheppard/;T{;{ I"*/images/chantFontenay/starwarsGrotte/;T{;{ I"/images/FossésRouges0005/;T{;{ I"/images/FossésRouges0002/;T{;{ I"/images/FossésRouges0006/;T{;{ I"/images/FossésRouges0001/;T{;{ I"/images/FossésRouges0007/;T{;{ I"/images/FossésRouges0003/;T{;{ I"/images/FossésRouges0004/;T{;{ I"*/images/JPEG/logo_HD_NB_typo_blanche/;T{;{ I"./images/JPEG/logo_HD_couleurs_BandeRouge/;T{;{ I"(/images/JPEG/logo_HD_NB_typo_noire/;T{;{ I"#/images/JPEG/typo_noire_SEULE/;T{;{ I"0/images/JPEG/logo_HD_couleurs_typo_blanche/;T{;{ I"!/images/JPEG/logoSEUL_HD_NB/;T{;{ I"%/images/JPEG/typo_blanche_SEULE/;T{;{ I"'/images/JPEG/logoSEUL_HD_couleurs/;T{;{ I"./images/JPEG/logo_HD_couleurs_typo_noire/;T{;{ I"+/images/logos/logo_HD_NB_typo_blanche/;T{;{ I"//images/logos/logo_HD_couleurs_BandeRouge/;T{;{ I")/images/logos/logo_HD_NB_typo_noire/;T{;{ I"$/images/logos/typo_noire_SEULE/;T{;{ I"1/images/logos/logo_HD_couleurs_typo_blanche/;T{;{ I""/images/logos/logoSEUL_HD_NB/;T{;{ I"&/images/logos/typo_blanche_SEULE/;T{;{ I"(/images/logos/logoSEUL_HD_couleurs/;T{;{ I"//images/logos/logo_HD_couleurs_typo_noire/;T{;{ I"/style/;T{;{;I"|
+html,body{
+	width:100%;
+	height:100%;
 }
 
-/*#sidebar, #header{
-position: absolute; 
-top: 0; 
-left: 0; 
-width: 200px; 
-height: 100%;
-overflow: hidden; 
-background-color: navy;
-color: white;
+body {
+	margin: 0;
+	font-size: 10px;
+	color: black;
 }
 
-#sidebar{ 
-left: 200px; 
-right: 0;
-width: auto;
-height: 120px;
-overflow: hidden;
-background-color: navy;
-color: white;
-}*/
+div{
+/*	border: solid;
+border-width: 1px;*/
+}
 
-/*#content{
-position: fixed; 
-left: 200px; 
-top: 120px; Set top value to HeightOfTopFrameDiv
-right: 0;
+a{
+	color:white;
+}
+a:hover{
+	color:grey;
+}
+
+
+#grosseImageBienViolente{
+position: absolute;
+height: 60%;
+width: 60%;
 bottom: 0;
-overflow: auto; 
-background: #fff;
-}
-*/
-.innertube{
-margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+right: 0;
+left: 0;
+top: 0;
+margin: auto;
 }
 
-* html body{ /*IE6 hack*/
-padding: 120px 0 0 200px; /*Set value to (HeightOfTopFrameDiv 0 0 WidthOfLeftFrameDiv)*/
+#grosseImageBienViolente:hover{
+	cursor: pointer;
 }
 
-* html #content{ /*IE6 hack*/
-height: 100%; 
-width: 100%; 
+#grosseImageBienViolente img{
+	max-width: 100%;
+	max-height: 100%;
 }
 
-* html #sidebar{ /*IE6 hack*/
-width: 100%;
+
+body#un{
+	background-image: url("/images/FossésRouges0001.JPG");
+	background-size: 100% 120%;
 }
+body#deux{
+	background-image: url("/images/FossésRouges0002.JPG");
+	background-size: 100% 120%;
+}
+body#trois{
+	background-image: url("/images/FossésRouges0003.JPG");
+	background-size: 100% 120%;
+}
+body#quatre{
+	background-image: url("/images/FossésRouges0004.JPG");
+	background-size: 100% 120%;
+}
+body#cinq{
+	background-image: url("/images/FossésRouges0005.JPG");
+	background-size: 100% 120%;
+}
+
+#grosseBarre{
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7)
+}
+#grosDeVaud{
+	position: absolute;
+	margin-top: 4.9%;
+	height: 90%;
+	width: 100%;
+}
+#logo{
+	display: inline-block;
+	height: 100%;
+}
+#logo img{
+	width: 80px;
+	height: inherit;
+	cursor:pointer;
+}
+
+#header {
+	display: inline-block;
+	vertical-align: super;
+}
+
+#header ul, #sidebar ul{
+	padding: 0;
+}
+#header li, #sidebar li{
+	margin-left: 10px;
+	list-style: none;
+}
+#header li{
+	display: inline;
+}
+
+
+
+#sidebar ul{
+	margin:0;
+	margin-top: 5px;
+}
+#sidebar ul ul{
+	display: none
+}
+#sidebar li:hover .hid{
+	display: block;
+	padding-left: 15px;
+}
+#sidebar li {
+	margin-top: 5px;
+}
+#sidebar{	
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+	width: 80px;
+	position:relative;
+	float:left;
+}
+
+
+
+
+#content{
+	float: right;
+	display: inline-block;
+	height: 100%;
+	width: 89%;
+}
+#texte{
+	text-align: justify;
+	margin-left: 5%;
+	max-width: 50%;
+	margin-top: 5%;
+}
+#vid{
+	padding-left: 15px;
+}
+
+
 ;T;	@?;
-@?I"/video/;T{;{	;I"�
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="video">video</a></li><li><a href="theatre">theatre</a></li><li><a href="residence">residence</a></li><li><a href="a propos de nous">a propos de nous</a></li><li><a href="ils nous ont fait confiance">ils nous ont fait confiance</a></li><li><a href="contact">contact</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li></ul></div><div id="content">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.</p>
-
-<p>Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.</p>
-</div></div></body></html>;T;	I"P
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.
-
-Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.
-;T;
-I"^
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis massa, ac lobortis massa condimentum a. Morbi ipsum tellus, facilisis ac leo ut, porttitor auctor lorem. Nullam eu maximus lorem. Vestibulum in nulla blandit, rutrum libero quis, ullamcorper augue. Mauris molestie augue tortor, in maximus mauris sagittis in. Ut vitae lorem posuere, lobortis diam eget, fermentum urna. Morbi quis mi ac massa accumsan vestibulum ut at enim. Morbi fermentum ex metus, sed malesuada felis commodo et. Donec lobortis vitae nisl at aliquam. Morbi ullamcorper leo at tempor ornare. Maecenas tempor lacinia mollis. Phasellus blandit mi dolor, eu sollicitudin felis viverra sit amet. Donec vel blandit nisi.</p>
-
-<p>Mauris non sapien ligula. Aenean tempus quam nec ligula consectetur, in porttitor augue pretium. Nullam eleifend vehicula lectus, et feugiat arcu. Phasellus dui leo, tristique id magna vitae, sollicitudin pharetra dui. Suspendisse sem ex, pharetra vitae metus at, aliquam posuere sapien. Nunc mi augue, eleifend quis dui vitae, egestas sollicitudin libero. Mauris ac condimentum nisi, vel bibendum risus. Proin efficitur cursus felis id efficitur. Fusce id tincidunt dolor. Ut non viverra massa. Aenean ullamcorper commodo ipsum. Duis auctor finibus tellus congue accumsan. Morbi eleifend dapibus justo, sit amet eleifend augue scelerisque vel.</p>
+@?I"/video/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz;T;
+I"
+<p>voilà nos vidz</p>
 ;T;@CI"/video/clip/;T{;{	;I"&<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="trois"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clips">clips</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="lesmailles">#<Nanoc::Item:0x007f8579a61980></a></li><li><a href="flashcocotte">#<Nanoc::Item:0x007f8579a61980></a></li><li><a href="lundismusicaux">#<Nanoc::Item:0x007f8579a61980></a></li></ul></div><div id="content">
 <p>Nos Vidz</p>
 </div></div></body></html>;T;	I"
@@ -4945,34 +4892,111 @@ I"
 lol !;T;
 I"
 <p>lol !</p>
-;T;@aI"!/video/clips/lundismusicaux/;T{;{	;I"6<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li></ul></div><div id="content">
+;T;@aI"!/video/clips/lundismusicaux/;T{;{	;I"'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="quatre"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
 <p>lol !</p>
-<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+</div><div id="vid"><iframe height="200" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="300"></iframe></div></div></div></body></html>;T;	I"
 lol !;T;
 I"
 <p>lol !</p>
-;T;@gI"/video/clips/flashCocotte/;T{;{	;I"6<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li></ul></div><div id="content">
+;T;@gI"/video/clips/flashCocotte/;T{;{	;I"'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="quatre"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
 <p>lol !</p>
-<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+</div><div id="vid"><iframe height="200" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="300"></iframe></div></div></div></body></html>;T;	I"
 lol !;T;
 I"
 <p>lol !</p>
-;T;@mI"/video/clips/lesmailles/;T{;{	;I"6<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clip">clip</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li><li><a href="/stylesheet.css"></a></li></ul></div><div id="content">
+;T;@mI"/video/clips/lesmailles/;T{;{	;I"'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="quatre"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
 <p>lol !</p>
-<div id="vid"><iframe height="300" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="500"></iframe></div></div></div></body></html>;T;	I"
+</div><div id="vid"><iframe height="200" src="https://www.youtube.com/embed/vmI2ohiU8l4?rel=0" width="300"></iframe></div></div></div></body></html>;T;	I"
 lol !;T;
 I"
 <p>lol !</p>
-;T;@sI"/video/clips/;T{;{	;I"2<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="trois"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clips">clips</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li></ul></div><div id="content">
-<p>Nos Vidz</p>
-</div></div></body></html>;T;	I"
-Nos Vidz;T;
-I"
-<p>Nos Vidz</p>
+;T;@sI"/video/clips/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="quatre"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
+<p>Voilà nos vidz</p>
+</div></div></div></body></html>;T;	I"
+Voilà nos vidz;T;
+I"
+<p>Voilà nos vidz</p>
 ;T;@yI"/video/mainVideo/;T{;{	;I"2<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/stylesheet.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="trois"><div id="grosseBarre"><div id="logo"><img src="/images/logos/logoSEUL_HD_couleurs.jpg" /></div><div id="header"><ul><li><a href="clips">clips</a></li><li><a href="captation">captation</a></li><li><a href="court-metrages">court-metrages</a></li><li><a href="documentaire">documentaire</a></li><li><a href="experimental">experimental</a></li><li><a href="trailer">trailer</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li><li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></li></ul></div><div id="content">
 <p>Nos Vidz</p>
 </div></div></body></html>;T;	I"
 Nos Vidz;T;
 I"
 <p>Nos Vidz</p>
-;T;@:versioni
+;T;@I"/video/experimental/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz exp</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz exp;T;
+I"!
+<p>voilà nos vidz exp</p>
+;T;@�I"/video/documentaire/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz docu</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz docu;T;
+I""
+<p>voilà nos vidz docu</p>
+;T;@�I"/video/court-metrages/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz courtes</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz courtes;T;
+I"%
+<p>voilà nos vidz courtes</p>
+;T;@�I"/video/captation/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a><ul class="hid"><li></li><a href="/video/clips/lesmailles/">Les mailles de Paris</a><li></li><a href="/video/clips/flashCocotte/">flash Cocotte</a><li></li><a href="/video/clips/lundismusicaux/">Les lundis musicaux</a></ul></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li><li></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz captées</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz captées;T;
+I"&
+<p>voilà nos vidz captées</p>
+;T;@�I"/residence/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz residence</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz residence;T;
+I"'
+<p>voilà nos vidz residence</p>
+;T;@�I"/contact/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz contact</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz contact;T;
+I"%
+<p>voilà nos vidz contact</p>
+;T;@�I"/theatre/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz theatre</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz theatre;T;
+I"%
+<p>voilà nos vidz theatre</p>
+;T;@�I"/trailer/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz trailer</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz trailer;T;
+I"%
+<p>voilà nos vidz trailer</p>
+;T;@�I"/confiance/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz confiance</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz confiance;T;
+I"'
+<p>voilà nos vidz confiance</p>
+;T;@�I"/aPropos/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="deux"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"><ul><li><a href="/video/clips/">clips</a></li><li><a href="/video/captation/">captation</a></li><li><a href="/video/court-metrages/">court-metrages</a></li><li><a href="/video/documentaire/">documentaire</a></li><li><a href="/video/experimental/">experimental</a></li><li><a href="/trailer/">trailer est-il?</a></li></ul></div><div id="content"><div id="texte">
+<p>voilà nos vidz apropos</p>
+</div></div></div></body></html>;T;	I"
+voilà nos vidz apropos;T;
+I"%
+<p>voilà nos vidz apropos</p>
+;T;@�I"/intro/;T{;{	;I"�<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title><rien></rien></title><link href="/style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-2.1.1.min.js"></script><link href="//cdn.jsdelivr.net/animatecss/3.2.0/animate.min.css" rel="stylesheet" /><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Rajdhani|Abel|Cabin|Economica|Cinzel" rel="stylesheet" /><script src="/javascript.js"></script><meta content="nanoc 3.7.3" name="generator" /></head><body id="un"><div id="grosseBarre"><div id="logo" onclick="window.location=&#39;/intro&#39;;"><img src="/images/logos/logoSEUL_HD_NB.jpg" /></div><div id="header"><ul><li><a href="/video/">video</a></li><li><a href="/theatre/">theâtre</a></li><li><a href="/residence/">résidence</a></li><li><a href="/aPropos/">A propos de nous</a></li><li><a href="/confiance/">They trust us !</a></li><li><a href="/contact/">contactum</a></li></ul></div></div><div id="grosDeVaud"><div id="sidebar"></div><div id="content"><div id="texte">
+<p>bienvenu !</p>
+</div></div></div></body></html>;T;	I"
+bienvenu !;T;
+I"
+<p>bienvenu !</p>
+;T;@�I"/styleIntro/;T{;{;I"�#body{
+    background-image: "/images/FossésRouges0005.JPG$"
+}
+
+#grosseImageBienViolente{
+
+    height:100px;
+    width: 200px;
+    margin: 200px;  
+    position: absolute;
+};T;	@�;
+@�:versioni

@@ -1,8 +1,10 @@
-Crashlog created at 2014-12-11 14:25:14 +0100
+Crashlog created at 2014-12-14 12:46:39 +0100
 
 ===== MESSAGE:
 
-TypeError: no implicit conversion of Symbol into Integer
+SyntaxError: (__TEMPLATE__):26: syntax error, unexpected keyword_else, expecting keyword_end
+; else; 
+      ^
 
 ===== COMPILATION STACK:
 
@@ -10,59 +12,54 @@ TypeError: no implicit conversion of Symbol into Integer
 
 ===== STACK TRACE:
 
-  0. (__TEMPLATE__):42:in `[]'
-  1. (__TEMPLATE__):42:in `block (2 levels) in singleton class'
-  2. (__TEMPLATE__):38:in `each'
-  3. (__TEMPLATE__):38:in `block in singleton class'
-  4. (__TEMPLATE__):-1:in `instance_eval'
-  5. (__TEMPLATE__):-1:in `singleton class'
-  6. (__TEMPLATE__):-3:in `__tilt_23441320'
-  7. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
-  8. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
-  9. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
-  10. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/filters/slim.rb:25:in `run'
-  11. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/filter.rb:121:in `setup_and_run'
-  12. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/result_data/item_rep.rb:403:in `layout'
-  13. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/item_rep_proxy.rb:69:in `layout'
-  14. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/rule_context.rb:74:in `layout'
-  15. /home/simdax/Dropbox/Internet/siteRemi/Rules:28:in `block in parse'
-  16. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/rule.rb:70:in `instance_eval'
-  17. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/rule.rb:70:in `apply_to'
-  18. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:386:in `compile_rep'
-  19. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:342:in `block in compile_reps'
-  20. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:335:in `loop'
-  21. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:335:in `compile_reps'
-  22. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  23. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:59:in `compile'
-  24. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:65:in `block in recompile'
-  25. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `chdir'
-  26. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `recompile'
-  27. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:28:in `run_on_changes'
-  28. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:74:in `block in run_supervised_task'
-  29. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:71:in `catch'
-  30. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:71:in `run_supervised_task'
-  31. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:119:in `block in _run_first_task_found'
-  32. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:117:in `each'
-  33. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:117:in `_run_first_task_found'
-  34. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:53:in `block in run_on_changes'
-  35. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:150:in `block (3 levels) in _scoped_plugins'
-  36. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:148:in `each'
-  37. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:148:in `block (2 levels) in _scoped_plugins'
-  38. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:147:in `catch'
-  39. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:147:in `block in _scoped_plugins'
-  40. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:145:in `each'
-  41. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:145:in `_scoped_plugins'
-  42. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:46:in `run_on_changes'
-  43. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/setuper.rb:296:in `block (2 levels) in _listener_callback'
-  44. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:108:in `block in within_preserved_state'
-  45. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:105:in `synchronize'
-  46. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:105:in `within_preserved_state'
-  47. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/setuper.rb:295:in `block in _listener_callback'
-  48. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'
-  49. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'
-  50. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'
-  51. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'
-  52. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'
+  0. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `class_eval'
+  1. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `compile_template_method'
+  2. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib/tilt/template.rb:240:in `compiled_method'
+  3. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib/tilt/template.rb:169:in `evaluate'
+  4. /home/simdax/.rvm/gems/ruby-2.1.1/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+  5. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/filters/slim.rb:25:in `run'
+  6. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/filter.rb:121:in `setup_and_run'
+  7. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/result_data/item_rep.rb:403:in `layout'
+  8. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/item_rep_proxy.rb:69:in `layout'
+  9. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/rule_context.rb:74:in `layout'
+  10. /home/simdax/Dropbox/Internet/siteRemi/Rules:30:in `block in parse'
+  11. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/rule.rb:70:in `instance_eval'
+  12. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/rule.rb:70:in `apply_to'
+  13. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:386:in `compile_rep'
+  14. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:342:in `block in compile_reps'
+  15. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:335:in `loop'
+  16. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:335:in `compile_reps'
+  17. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  18. /home/simdax/.rvm/gems/ruby-2.1.1/gems/nanoc-3.7.3/lib/nanoc/base/source_data/site.rb:59:in `compile'
+  19. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:65:in `block in recompile'
+  20. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `chdir'
+  21. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `recompile'
+  22. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:28:in `run_on_changes'
+  23. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:74:in `block in run_supervised_task'
+  24. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:71:in `catch'
+  25. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:71:in `run_supervised_task'
+  26. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:119:in `block in _run_first_task_found'
+  27. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:117:in `each'
+  28. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:117:in `_run_first_task_found'
+  29. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:53:in `block in run_on_changes'
+  30. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:150:in `block (3 levels) in _scoped_plugins'
+  31. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:148:in `each'
+  32. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:148:in `block (2 levels) in _scoped_plugins'
+  33. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:147:in `catch'
+  34. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:147:in `block in _scoped_plugins'
+  35. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:145:in `each'
+  36. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:145:in `_scoped_plugins'
+  37. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/runner.rb:46:in `run_on_changes'
+  38. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/setuper.rb:296:in `block (2 levels) in _listener_callback'
+  39. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:108:in `block in within_preserved_state'
+  40. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:105:in `synchronize'
+  41. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/commander.rb:105:in `within_preserved_state'
+  42. /home/simdax/.rvm/gems/ruby-2.1.1/gems/guard-2.6.1/lib/guard/setuper.rb:295:in `block in _listener_callback'
+  43. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'
+  44. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'
+  45. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'
+  46. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'
+  47. /home/simdax/.rvm/gems/ruby-2.1.1/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'
 
 ===== VERSION INFORMATION:
 
@@ -110,7 +107,7 @@ BUNDLE_BIN_PATH => "/home/simdax/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/
 BUNDLE_GEMFILE => "/home/simdax/Dropbox/Internet/siteRemi/Gemfile"
 COLORFGBG => "15;0"
 COLUMNS => "172"
-DBUS_SESSION_BUS_ADDRESS => "unix:abstract=/tmp/dbus-R5qjjQApno,guid=eed8872d3a57f7ed831559fc0000001f"
+DBUS_SESSION_BUS_ADDRESS => "unix:abstract=/tmp/dbus-M76Xgb1NCF,guid=d9921f26553f71ac0ad474090000001e"
 DEFAULTS_PATH => "/usr/share/gconf/default.default.path"
 DESKTOP_SESSION => "default"
 DISPLAY => ":0"
@@ -148,7 +145,7 @@ LV2_PATH => "/home/simdax/.lv2:/usr/lib/lv2:/usr/local/lib/lv2"
 MANDATORY_PATH => "/usr/share/gconf/default.mandatory.path"
 MANPATH => "/home/simdax/.rvm/gems/ruby-2.1.1/gems/kramdown-1.4.2/man"
 MY_RUBY_HOME => "/home/simdax/.rvm/rubies/ruby-2.1.1"
-OLDPWD => "/home/simdax/Dropbox/Internet/siteRemi/content"
+OLDPWD => "/home/simdax/Dropbox/Internet/tuto"
 PAGER => "less"
 PATH => "/home/simdax/.rvm/gems/ruby-2.1.1/bin:/home/simdax/.rvm/gems/ruby-2.1.1@global/bin:/home/simdax/.rvm/rubies/ruby-2.1.1/bin:/home/simdax/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/simdax/.rvm/bin"
 PROFILEHOME => ""
@@ -157,22 +154,22 @@ QT_GRAPHICSSYSTEM => "raster"
 QT_PLUGIN_PATH => "/home/simdax/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/"
 RUBYLIB => "/home/simdax/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib"
 RUBYOPT => "-rbundler/setup"
-SESSION_MANAGER => "local/ordi:@/tmp/.ICE-unix/2079,unix/ordi:/tmp/.ICE-unix/2079"
+SESSION_MANAGER => "local/ordi:@/tmp/.ICE-unix/2034,unix/ordi:/tmp/.ICE-unix/2034"
 SHELL => "/bin/zsh"
-SHELL_SESSION_ID => "d5e1fd3fd6d540009fb2b6e163af1ce1"
+SHELL_SESSION_ID => "d04f2941ae0a40009c3e8cf53a988d3d"
 SHLVL => "1"
-SSH_AGENT_PID => "2008"
-SSH_AUTH_SOCK => "/tmp/ssh-iEvjjWwU1605/agent.1605"
+SSH_AGENT_PID => "1968"
+SSH_AUTH_SOCK => "/tmp/ssh-HvEDwytD1622/agent.1622"
 TERM => "xterm"
 USER => "simdax"
 VST_PATH => "/home/simdax/.vst:/usr/lib/vst:/usr/local/lib/vst"
-WINDOWID => "35651603"
+WINDOWID => "35651592"
 WINDOWPATH => "8"
 XCURSOR_THEME => "Oxygen_White"
 XDG_CONFIG_DIRS => "/etc/xdg/xdg-default:/usr/share/kxstudio/menu:/etc/xdg"
 XDG_CURRENT_DESKTOP => "KDE"
 XDG_DATA_DIRS => "/usr/share:/usr/share/default:/usr/local/share/:/usr/share/"
-XDG_SESSION_COOKIE => "abd2a7f7a5c69c3f6976cda30000371d-1418291240.857656-239447160"
+XDG_SESSION_COOKIE => "abd2a7f7a5c69c3f6976cda30000371d-1418547368.59936-206891075"
 XDM_MANAGED => "method=classic,auto"
 ZSH => "/home/simdax/.oh-my-zsh"
 _ => "/home/simdax/.rvm/gems/ruby-2.1.1@global/bin/bundle"
